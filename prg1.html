@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labour Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 10px;
+            background-color: #f4f4f4;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .features div {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .contact {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+        }
+        .contact a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Labour Management System</h1>
+        <p>Efficient solutions for workforce management</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+        <a href="#">About</a>
+    </nav>
+    <div style="position: relative; display: inline-block;">
+        <img src="labour.jpg" alt="Image description" style="width: 100%; height: auto;">
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; background-color: rgba(0, 0, 0, 0.5); padding:60px; border-radius: 5px;">
+          LABOUR MANAGEMENT
+        </div>
+      </div>
+    <div class="hero">
+        <h1>Welcome to the Labour Management System</h1>
+        <p>Streamline your workforce operations with ease.</p>
+    </div>
+    <section id="features" class="features">
+        <div>
+            <h2>Schedule Management</h2>
+            <p>Organize and optimize labor schedules effectively.</p>
+        </div>
+        <div>
+            <h2>Payroll Tracking</h2>
+            <p>Automate and monitor employee payments seamlessly.</p>
+        </div>
+        <div>
+            <h2>Performance Insights</h2>
+            <p>Track productivity and generate detailed reports.</p>
+        </div>
+    </section>
+    <footer id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:support@labourmanagement.com">support@labourmanagement.com</a></p>
+        <p>Phone: +123-456-7890</p>
+    </footer>
+</body>
+</html>
